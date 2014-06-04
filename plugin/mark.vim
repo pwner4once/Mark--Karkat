@@ -222,7 +222,7 @@ if !hasmapto('<Plug>MarkRegex', 'v')
 	vmap <unique> <silent> <Leader>r <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <silent> <Leader>n <Plug>MarkClear
+	"nmap <unique> <silent> <Leader>n <Plug>MarkClear
 endif
 " No default mapping for <Plug>MarkAllClear. 
 " No default mapping for <Plug>MarkToggle. 
@@ -234,7 +234,7 @@ if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
 	nmap <unique> <silent> <Leader># <Plug>MarkSearchCurrentPrev
 endif
 if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
-	nmap <unique> <silent> <Leader>/ <Plug>MarkSearchAnyNext
+	"nmap <unique> <silent> <Leader>/ <Plug>MarkSearchAnyNext
 endif
 if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
 	nmap <unique> <silent> <Leader>? <Plug>MarkSearchAnyPrev
